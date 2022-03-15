@@ -2,4 +2,4 @@
 
 ## Big 'O' 
 
-Big O notation is a way to determine and convey the **space complexity** (memory use) and **time complexity** (duration) of an algorithm.
+Big O notation is a way to determine and meaningfully convey the **space complexity** (memory use) and **time complexity** (duration) of an algorithm.
