@@ -49,13 +49,13 @@ function tallyUp(array) {
 }
 
 function same(numbers, squares) {
-  // if (!(numbers && squares)) {
-  //   return false
-  // } else if (numbers.length === 0 || squares.length === 0) {
-  //   return false
-  // } else if (numbers.length !== squares.length) {
-  //   return false
-  // }
+  if (!(numbers && squares)) {
+    return false
+  } else if (numbers.length === 0 || squares.length === 0) {
+    return false
+  } else if (numbers.length !== squares.length) {
+    return false
+  }
 
   const numberTally = tallyUp(numbers)
   const squaresTally = tallyUp(squares)
